@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <title>Spotify</title>
+        <link rel="stylesheet" href="CSS\account-style.css" class="stylesheet">
+        <link rel="icon" href="Images/Spotify.ico">
+        <script type="text/javascript">
+            var num=1;
+            function dropDown(){
+			    var menu=document.getElementById('acctdn');
+			    if(num==1)
+			    {
+				    menu.style.display="block";
+				    num=0;
+			    }
+			    else if(num==0){
+				    menu.style.display="none";
+				    num=1;
+			    }
+		    }
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="left">
+                <a href="index.html"><img id="logo" src="Images/spotify-logo.png" alt="logo:)"></a>
+                <div class="menu">
+                    <p id="menuname" style="color:white;"><img id="mbtn" src="Images/estate.svg" alt="home" style="opacity:1;">Home</p>
+                </div>
+                <div class="menu" style="background-color: black;"><p id="menuname"><img id="mbtn" src="Images/search.svg" alt="srch">Search</p></div>
+                <div class="menu" style="background-color: black;"><p id="menuname"><img id="mbtn" src="Images/books.svg" alt="Lib">Your Library</p></div>
+                <br>
+                <div class="menu" style="background-color: black;"><p id="menuname" style="font-size: 22px; letter-spacing: 0.2px;"><img id="mbtn" src="Images/plus-square.svg" alt="plus" style="height:25px; width:25px;">Create Playlist</p></div>
+                <div class="menu" style="background-color: black;"><p id="menuname" style="font-size: 22px; letter-spacing: 0.2px;"><img id="mbtn" src="Images/heart.svg" alt="Like" style="height:25px; width:25px;">Liked Songs</p></div>
+                <hr style="width:75%; color:white; opacity:0.2; margin:5px auto;">
+                <br>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Welcome to hell</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Breathe...</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Podcasts</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Japanese Lo-fi...</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Bhoomi Band</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Lo-fi Hip-Hop music...</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">MKBHD Music</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Coding Lo-fi</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Bollywood 90's</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Hollywood Latest</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Bangla Podcasts</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">TED Talks</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Teenager Therapy</p></div>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:25px;"><p id="menuname"style="font-size: 14px; margin:0px 8px;">Whisper of the Heart</p></div>
+                <br>
+                <div class="menu" style="background-color: black; margin:0px 8px; height:auto;"><p id="menuname"style="font-size: 16px; margin:0px 8px;"><img id="mbtn" src="Images/arrow-circle-down.svg" alt="Like" style="height:20px; width:20px;margin-right: 12px;">Install App</p></div>
+            </div>
+            <div id="right">
+                <div id="right_header" style="border:none;" onclick="dropDown()">
+                    <p id="usricon"><img id="mbtn" src="Images/user-circle.svg" alt="user" style="height:30px; width:30px;opacity:1;">su1nta</p>
+                        <ul id="acctdn">
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                </div>
+                <div id="right_header" style="width:130px;"><p id="rh_text">UPGRADE</p></div>
+                <br><br><br><br>
+                <div id="header"><p id="onehead">Good evening</p></div>
+                <div id="list">
+                    <div id="item_container">
+                        <div id="item">
+                            <img id="album_art" src="Images/album_art/album1.png" alt="album art">
+                            <p id="menuname" style="color:white;">Whisper of the heart soundtrack</p>
+                        </div>
+                        <div id="item">
+                            <img id="album_art" src="Images/album_art/album2.jpg" alt="album art">
+                            <p id="menuname" style="color:white;">Kiki's Delivery Service</p>
+                        </div>
+                        <div id="item">
+                            <img id="album_art" src="Images/album_art/album3.png" alt="album art">
+                            <p id="menuname" style="color:white;">This is AR Rahman</p>
+                        </div>
+                        <div id="item">
+                            <img id="album_art" src="Images/album_art/album4.png" alt="album art">
+                            <p id="menuname" style="color:white;">How to be a Better Human<br>Ted</p>
+                        </div>
+                        <div id="item">
+                            <img id="album_art" src="Images/album_art/album5.png" alt="album art">
+                            <p id="menuname" style="color:white;">Little Mix<br>DNA</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="item_container">
+                        <div id="item">
+                            <img id="album_art" src="Images/album_art/album6.jpg" alt="album art">
+                            <p id="menuname" style="color:white;">60's Retro Mix</p>
+                        </div>
+                        <div id="item">
+                            <img id="album_art" src="Images/album_art/album7.jpg" alt="album art">
+                            <p id="menuname" style="color:white;">Colors<br>NCS</p>
+                        </div>
+                        <div id="item">
+                            <img id="album_art" src="Images/album_art/album8.jpg" alt="album art">
+                            <p id="menuname" style="color:white;">Best of Falguni Pathak</p>
+                        </div>
+                        <div id="item">
+                            <img id="album_art" src="Images/album_art/album9.png" alt="album art">
+                            <p id="menuname" style="color:white;">Euphoria<br>Soundtracks</p>
+                        </div>
+                        <div id="item">
+                            <img id="album_art" src="Images/album_art/album10.jpg" alt="album art">
+                            <p id="menuname" style="color:white;">GTA San Andreas<br>Radio Mix</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div id="header"><p id="onehead">Shows You Might Like</p></div>
+                <div id="list">
+                    <div id="item_container">
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album11.jpg" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Honesty with Tanmay Bhat</p><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Tanmay Bhat</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album4.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">How to be a Human</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">TED and PRX</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album12.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Explain the Universe</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">iHeart Radio</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album13.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">The Musafir Stories</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Saif and Faiza</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album14.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Anime Out of Context</p><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Shaun Rollings and Remington Chase</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album15.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Design Better Podcast</p><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">InVision App, Inc.</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album16.jpg" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Teenager Therapy</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Flighthouse</p>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+                <div id="header"><p id="onehead">Shows You Might Like</p></div>
+                <div id="list">
+                    <div id="item_container">
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album11.jpg" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Honesty with Tanmay Bhat</p><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Tanmay Bhat</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album4.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">How to be a Human</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">TED and PRX</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album12.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Explain the Universe</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">iHeart Radio</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album13.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">The Musafir Stories</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Saif and Faiza</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album14.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Anime Out of Context</p><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Shaun Rollings and Remington Chase</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album15.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Design Better Podcast</p><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">InVision App, Inc.</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album16.jpg" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Teenager Therapy</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Flighthouse</p>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+                <br>
+                <div id="header"><p id="onehead">Shows You Might Like</p></div>
+                <div id="list">
+                    <div id="item_container" style="height:400px;">
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album11.jpg" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Honesty with Tanmay Bhat</p><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Tanmay Bhat</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album4.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">How to be a Human</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">TED and PRX</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album12.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Explain the Universe</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">iHeart Radio</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album13.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">The Musafir Stories</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Saif and Faiza</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album14.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Anime Out of Context</p><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Shaun Rollings and Remington Chase</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album15.png" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Design Better Podcast</p><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">InVision App, Inc.</p>
+                        </div>
+                        <div id="item_hor">
+                            <img id="album_art_hor" src="Images/album_art/album16.jpg" alt="album art">
+                            <p id="menuname" style="display:block; color:white;">Teenager Therapy</p><br><p id="menuname" style="display:block; font-size: 14px; margin:0px 8px;">Flighthouse</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="player">
+                <div id="leftpl">
+                    <div id="albumart"><img src="Images/album_art/album10.jpg" alt="album art"></div>
+                    <div id="songname">
+                        <p>I Love a Rainy Night</p>
+                        <p style="font-size: 12px; margin-top:5px; color:#d1d1d1;">Eddie Rabbitt</p>
+                    </div>
+                    <div id="btn"><img src="Images/heart.svg" alt="heart"></div>
+                    <div id="btn"><img src="Images/pip.svg" alt="pip"></div>
+                </div>
+                <div id="midpl">
+                    <div id="controls">
+                        <img src="Images/shuffle.svg" alt="shuffle">
+                        <img src="Images/skip_previous.svg" alt="prev">
+                        <img src="Images/play.svg" alt="play" style="height:40px; width:40px;">
+                        <img src="Images/skip_next.svg" alt="next">
+                        <img src="Images/repeat.svg" alt="repeat">
+                    </div>
+                    <div id="timebar">
+                        <div id="time"><p>0:00</p></div>
+                        <div id="bar"></div>
+                        <div id="time"><p>3:11</p></div>
+                    </div>
+                </div>
+                <div id="rightpl">
+                    <div id="btn"><img src="Images/mic.svg" alt="lyrics"></div>
+                    <div id="btn"><img src="Images/playlist.svg" alt="addtoplay"></div>
+                    <div id="btn"><img src="Images/devices.svg" alt="devices"></div>
+                    <div id="btn"><img src="Images/volume_off.svg" alt="volume"></div>
+                    <div id="bar"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
